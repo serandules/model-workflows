@@ -40,7 +40,7 @@ schema.plugin(mongins({
     o.transitions = JSON.parse(o.transitions);
   }*/
 }));
-schema.plugin(mongins.user);
+schema.plugin(mongins.user());
 schema.plugin(mongins.permissions());
 schema.plugin(mongins.visibility());
 schema.plugin(mongins.createdAt());
